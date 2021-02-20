@@ -9,12 +9,12 @@ var redbottom
 
 function preload()
 {
-helicopterIMG=loadImage("helicopter.png")
-packageIMG=loadImage("package.png")
+//helicopterIMG=loadImage("helicopter.png")
+//packageIMG=loadImage("package.png")
 }
 
-function setup() {
-createCanvas(800, 700);
+//function setup() {
+//createCanvas(800, 700);
 rectMode(CENTER);
 
 
@@ -60,7 +60,7 @@ function draw() {
   redSide1.display()
   redSide2.display()
   redbottom.display()
-  drawSprites();
+ // drawSprites();
  
  
  
